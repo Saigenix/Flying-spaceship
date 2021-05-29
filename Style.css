@@ -93,8 +93,8 @@
       width: 200px;
       height: 190px;
       transform: scale(0.2, 0.2);
-     top :330px;
-     left: 300px ;
+      top :330px;
+      left: 300px;
       animation: stonedrop 1s linear infinite; 
 
     }
