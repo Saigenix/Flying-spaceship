@@ -85,7 +85,7 @@
     }
 
     #stone {
-      background: url(../stone.png);
+      background: url(https://raw.githubusercontent.com/Saigenix/Flying-spaceship/master/stone.png);
       margin-left: -80px;
       padding-right: 0px;
       position: absolute;
