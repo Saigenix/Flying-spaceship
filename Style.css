@@ -85,7 +85,7 @@
     }
 
     #stone {
-      background: url(/stone.png);
+      background: url(https://raw.githubusercontent.com/Saigenix/Flying-spaceship/master/stone.png);
       margin-left: -80px;
       padding-right: 0px;
       position: absolute;
@@ -93,7 +93,7 @@
       width: 200px;
       height: 190px;
       transform: scale(0.2, 0.2);
-      top :330px;
+      top: 330px;
       left: 300px;
       animation: stonedrop 1s linear infinite; 
 
