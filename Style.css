@@ -1,0 +1,112 @@
+    body {
+      margin: 0px;
+      padding: 0px;
+      
+      overflow: hidden; 
+
+    }
+
+    #image {
+      background: url(/Bg.jpeg);
+      background-repeat: repeat;
+
+      width: 360px;
+      height: 2500px;
+
+    
+      animation: slide 3s linear infinite;
+
+
+
+    }
+
+
+    #ship {
+      background: url(/Yan.png);
+      width: 50px;
+      height: 50px;
+
+      background-size: 50px;
+      position: absolute;
+      top: 400px;
+      left: 150px;
+
+
+
+
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translate3d(0, -1000px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0px, 0);
+      }
+    }
+
+    #btright {
+      z-index: 5;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      bottom: 70px;
+      left: 270px;
+      font-size: 30px;
+
+
+    }
+
+    #btright:hover {
+      background-color: red;
+      height: 70px;
+      width: 70px;
+
+    }
+
+    #btleft:hover {
+      background-color: red;
+      height: 70px;
+      width: 70px;
+
+    }
+
+
+    #btleft {
+      z-index: 5;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      bottom: 70px;
+      left: 30px;
+      font-size: 30px;
+
+    }
+
+    #stone {
+      background: url(stone.png);
+      margin-left: -80px;
+      padding-right: 0px;
+      position: absolute;
+      z-index: 4;
+      width: 200px;
+      height: 190px;
+      transform: scale(0.2, 0.2);
+     top :330px;
+     left: 300px ;
+      animation: stonedrop 1s linear infinite; 
+
+    }
+
+    @keyframes stonedrop {
+      0% {
+        top: -80px;
+        transform: scale(0.2, 0.2);
+      }
+
+      100% {
+        top :600px;
+        transform: scale(0.2, 0.2);
+      }
+    } 
