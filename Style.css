@@ -7,7 +7,7 @@
     }
 
     #image {
-      background: url(/Bg.jpeg);
+      background: url(../Bg.jpeg);
       background-repeat: repeat;
 
       width: 360px;
@@ -22,7 +22,7 @@
 
 
     #ship {
-      background: url(/Yan.png);
+      background: url(../Yan.png);
       width: 50px;
       height: 50px;
 
@@ -85,7 +85,7 @@
     }
 
     #stone {
-      background: url(stone.png);
+      background: url(../stone.png);
       margin-left: -80px;
       padding-right: 0px;
       position: absolute;
