@@ -68,7 +68,7 @@ setInterval(() => {
 setInterval( () => {
   
     if (num == ran1) {
-      alert("game over")
+      alert("You Win ✨")
       location.reload();
     }
    
